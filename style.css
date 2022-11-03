@@ -322,189 +322,6 @@ font-weight: bold;
 
 
 
-
-
-@media screen and (max-width: 480px){
-html{
-    width: auto;
-}
-body{
-    width: auto;
-}
-   
-.menu {
-    width: auto;
-    height: auto;
-}
-.menu__list {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-right: 0;
-}
-.menu__list a{
-    font-size: 20px;
-    margin-left: 0;
-}
-.menu__list__item{
-    padding-bottom: 1rem;
-}
-.title__bio {
-    width: 200px;
-    font-size: 15px;
-}
-.title__profile{
-    width: 100px;
-    position: relative;
-    bottom: 30px;
-    right: 140px;
-}
-.title__network{
-    width: auto;
-}
-.title__network__item {
-    width: 90px;
-}
-.title__network__item a {
-    padding-left: 0.3rem;
-    font-size: 15px;
-}
-.title_div{
-    width: 300px;
-    padding: 2rem 1rem 1rem 1rem;
-   
-}
-.about {
-    width: auto;
-    padding: 1rem;
-}
-.about__container p {
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-}
-.skills__line {
-    width: auto;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 4rem;
-
-}
-.skills__title{
-    width: auto;
-    padding-top: 2rem;
-
-}
-.skills__name{
-    position: relative;
-    align-items: baseline;
-}
-.skills__box{
-    width: 100px;
-    height: 90px;
-   padding-top: 20px;
-}
-.skills__img {
-    width: auto;
-    height: auto;
-    padding-bottom: 1rem;
-}
-.hobbies__title{
-    width: auto;
-    padding-top: 0;
-}
-.hobbies__line {
-    width: auto;
-    padding: 2rem 1rem 1rem 1rem;
-}
-.hobbies__box{
-    width: 100px;
-    height: 90px;
-    padding-top: 20px;
-}
-.hobbies__name{
-    position: relative;
-    padding-top: 0;
-}
-.hobbies__img {
-    width: auto;
-    height: auto;
-    padding-bottom: 1rem;
-}
-.academic__title{
-    font-size: 35px;
-    text-align: center;
-    padding-top: 3rem;
-}
-.academic__courses{
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 2rem ;
-}
-.academic__courses__box{
-    width: auto;
-}
-.academic__courses__list {
-    text-align: center;
-    width: auto;
-    height: 150px;
-    padding: 1rem;
-}
-.experience{
-    text-align: left;
-    width: auto;
-}
-.experience__img{
-    width: auto;
-    height: 250px;
-    margin: 15px;
-}
-.experience__section__title {
-    font-size: 35px;
-    padding: 0;
-}
-.experience__info {
-    position: relative;
-    left: 5%;
-    top: 1px;
-    font-size: 30px;
-}
-.experiencie__box {
-    height: 450px;
-    margin: 50px;
-}
-.formcontato__form {
-    width: auto;
-    margin: 0 40px 0 40px;
-}
-.formcontato__title{
-    padding-top: 4rem;
-}
-.formcontato__text{
-    width: auto;
-}
-.formcontato__input{
-    width: auto;
-    
-}
-.formcontato__textarea{
-    width: auto;
-    
-}
-.formcontato__botao{
-    width: auto;
-    margin: 4rem 5rem 4rem 5rem;
-}
-.footer{
-    width: auto;
-}
-
-}
-
-
-
 @media screen and (max-width: 768px){
     html{
         width: auto;
@@ -519,29 +336,29 @@ body{
     }
     .menu__list {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         text-align: center;
-        padding-right: 1rem;
+        padding-right: 0;
     }
     .menu__list a{
         font-size: 20px;
-        margin-left: 1.5rem;
+        margin-left: 0;
     }
     .menu__list__item{
         padding-bottom: 1rem;
     }
     .title__bio {
-        width: 400px;
-        font-size: 20px;
-        padding-left: 2rem;
+        width: 200px;
+        font-size: 15px;
     }
     .title__profile{
         width: 100px;
-       margin: 0  2rem 3rem 10rem ;
+        position: relative;
+        bottom: 30px;
+        right: 140px;
     }
     .title__network{
         width: auto;
-        padding-left: 2rem;
     }
     .title__network__item {
         width: 90px;
@@ -560,7 +377,8 @@ body{
         padding: 1rem;
     }
     .about__container p {
-        padding: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
     }
     .skills__line {
         width: auto;
@@ -633,7 +451,7 @@ body{
         padding: 1rem;
     }
     .experience{
-        text-align: center;
+        text-align: left;
         width: auto;
     }
     .experience__img{
@@ -647,17 +465,13 @@ body{
     }
     .experience__info {
         position: relative;
-        left: 0;
+        left: 5%;
         top: 1px;
         font-size: 30px;
     }
-    #info{
-        width: 400px;
-        margin: auto;
-    }
     .experiencie__box {
         height: 450px;
-        margin: 0 50px 50px 50px;
+        margin: 50px;
     }
     .formcontato__form {
         width: auto;
@@ -686,3 +500,187 @@ body{
     }
     
     }
+
+
+
+    @media screen and (max-width: 1024px){
+        html{
+            width: auto;
+        }
+        body{
+            width: auto;
+        }
+           
+        .menu {
+            width: auto;
+            height: auto;
+        }
+        .menu__list {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            padding-right: 1rem;
+        }
+        .menu__list a{
+            font-size: 20px;
+            margin-left: 1.5rem;
+        }
+        .menu__list__item{
+            padding-bottom: 1rem;
+        }
+        .title__bio {
+            width: 400px;
+            font-size: 20px;
+            padding-left: 2rem;
+        }
+        .title__profile{
+            width: 100px;
+           margin: 0  2rem 3rem 10rem ;
+        }
+        .title__network{
+            width: auto;
+            padding-left: 2rem;
+        }
+        .title__network__item {
+            width: 90px;
+        }
+        .title__network__item a {
+            padding-left: 0.3rem;
+            font-size: 15px;
+        }
+        .title_div{
+            width: 300px;
+            padding: 2rem 1rem 1rem 1rem;
+           
+        }
+        .about {
+            width: auto;
+            padding: 1rem;
+        }
+        .about__container p {
+            padding: 1rem;
+        }
+        .skills__line {
+            width: auto;
+            padding-top: 2rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 4rem;
+        
+        }
+        .skills__title{
+            width: auto;
+            padding-top: 2rem;
+        
+        }
+        .skills__name{
+            position: relative;
+            align-items: baseline;
+        }
+        .skills__box{
+            width: 100px;
+            height: 90px;
+           padding-top: 20px;
+        }
+        .skills__img {
+            width: auto;
+            height: auto;
+            padding-bottom: 1rem;
+        }
+        .hobbies__title{
+            width: auto;
+            padding-top: 0;
+        }
+        .hobbies__line {
+            width: auto;
+            padding: 2rem 1rem 1rem 1rem;
+        }
+        .hobbies__box{
+            width: 100px;
+            height: 90px;
+            padding-top: 20px;
+        }
+        .hobbies__name{
+            position: relative;
+            padding-top: 0;
+        }
+        .hobbies__img {
+            width: auto;
+            height: auto;
+            padding-bottom: 1rem;
+        }
+        .academic__title{
+            font-size: 35px;
+            text-align: center;
+            padding-top: 3rem;
+        }
+        .academic__courses{
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 2rem ;
+        }
+        .academic__courses__box{
+            width: auto;
+        }
+        .academic__courses__list {
+            text-align: center;
+            width: auto;
+            height: 150px;
+            padding: 1rem;
+        }
+        .experience{
+            text-align: center;
+            width: auto;
+        }
+        .experience__img{
+            width: auto;
+            height: 250px;
+            margin: 15px;
+        }
+        .experience__section__title {
+            font-size: 35px;
+            padding: 0;
+        }
+        .experience__info {
+            position: relative;
+            left: 0;
+            top: 1px;
+            font-size: 30px;
+        }
+        #info{
+            width: 400px;
+            margin: auto;
+        }
+        .experiencie__box {
+            height: 450px;
+            margin: 0 50px 50px 50px;
+        }
+        .formcontato__form {
+            width: auto;
+            margin: 0 40px 0 40px;
+        }
+        .formcontato__title{
+            padding-top: 4rem;
+        }
+        .formcontato__text{
+            width: auto;
+        }
+        .formcontato__input{
+            width: auto;
+            
+        }
+        .formcontato__textarea{
+            width: auto;
+            
+        }
+        .formcontato__botao{
+            width: auto;
+            margin: 4rem 5rem 4rem 5rem;
+        }
+        .footer{
+            width: auto;
+        }
+        
+        }
