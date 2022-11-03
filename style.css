@@ -1,4 +1,5 @@
 
+
 html{
     font-family: 'Rajdhani', sans-serif;
     font-weight: bold;
@@ -6,6 +7,7 @@ html{
 .menu {
     height: 80px;
     background: #292929;
+    
 }
 .menu__list {
     display: flex;
@@ -40,6 +42,9 @@ font-size: 20px;
 .title__network__item a:hover {
     text-decoration: underline;
 }
+
+
+
 .site-alura{
     color: #000;
     text-decoration: none;
@@ -48,6 +53,7 @@ font-size: 20px;
     color: #fdfdfd;
     text-decoration: underline;
 }
+
 .title_div {
     display: flex;
     padding: 2rem;
@@ -66,9 +72,18 @@ width: 800px;
  font-size: 20px;
  padding-top: 2rem;
 }
+
+
+
+
 body {
     background: #ccc;
 }
+
+
+
+
+
 .about {
     background: #292929;
     padding: 2rem;
@@ -84,6 +99,12 @@ body {
     line-height: 1.5rem;
     padding-left: 2rem;
 }
+
+
+
+
+
+
 .skills__title {
     font-size: 40px;
     text-align: center;
@@ -114,6 +135,11 @@ font-weight: bold;
     width: 150px;
     height: 100px;
 }
+
+
+
+
+
 .hobbies__title {
     font-size: 40px;
     text-align: center;
@@ -123,6 +149,7 @@ font-weight: bold;
     width: 150px;
     height: 150px;
     padding-top: 70px;
+
 }
 .hobbies__box:hover {
     font-size: 20px;
@@ -149,6 +176,17 @@ font-weight: bold;
 .musica, .panela,.camera,.ler {
     width: 40px;
 }
+
+
+
+
+
+
+
+
+
+
+
 .academic__title {
     font-size: 40px;
     text-align: center;
@@ -176,6 +214,13 @@ font-weight: bold;
 .academic__courses__list p {
     padding: 1rem;
 }
+
+
+
+
+
+
+
 .experience__section__title {
     font-size: 40px;
     text-align: center;
@@ -200,12 +245,14 @@ font-weight: bold;
     height: 450px;
     margin-left: 100px;
 } 
+
 .experience__info {
     position: relative;
     left: 55%;
     bottom: 350px;
     font-size: 30px;
 }
+
 .experience__description {
     padding-top: 1rem;
 }
@@ -214,6 +261,11 @@ font-weight: bold;
     font-size: 20px;
     width: 250px;
 }
+
+
+
+
+
 .formcontato__title  {
     font-size: 40px;
     text-align: center;
@@ -251,6 +303,12 @@ font-weight: bold;
 .formcontato__subtext{
     text-align: center;
 }
+
+
+
+
+
+
 .footer {
     padding: 2rem 0 1rem;
     height: 50px;
@@ -445,4 +503,3 @@ font-weight: bold;
 
 
 
-    
